@@ -1,6 +1,6 @@
 // app/page.tsx
 import React from 'react';
-import LoomEmbed from '/components/LoomEmbed'; // Use relative path
+import LoomEmbed from '../../components/LoomEmbed';
 
 const HomePage = () => {
   return (

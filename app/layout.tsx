@@ -58,7 +58,7 @@ export default function RootLayout({
         {/* Footer with just the Feedback Button */}
         <footer className="w-full bg-gray-900 p-4">
           <Link 
-            href="/feedback"
+            href="/question4"
             className={`${buttonClass} w-full`}
           >
             Question 4
