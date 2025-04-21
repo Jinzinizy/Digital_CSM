@@ -1,9 +1,21 @@
-// /app/feedback/page.tsx
-export default function FeedbackPage() {
+// app/page.tsx
+import React from 'react';
+import LoomEmbed from '/components/LoomEmbed'; // Use relative path
+
+const HomePage = () => {
   return (
-    <div>
-      <p>Great takehome assignment, I thouroughly enjoyed it and learned a lot in the process- the difficulty was just about right considering I haven't done any Git/front-end work since University. <br/>
-     <br/>The only feedback I would give is that this exercise requires a user to already have insalled their own Terminal, Editor etc... which not every candidate may have on their home setup - consider mentioning this in "Getting Setup".</p>
-    </div>
+    <main
+      style={{
+        height: '100vh',
+        width: '100vw',
+        overflow: 'hidden',
+        margin: 0,
+        padding: 0,
+      }}
+    >
+      <LoomEmbed />
+    </main>
   );
-}
+};
+
+export default HomePage;
